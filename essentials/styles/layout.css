@@ -1,0 +1,85 @@
+/* Layout
+----------*/
+
+
+/* Wrapper */
+
+div#wrapper {
+  position:relative;
+  max-width:;
+  margin:0 auto;
+}
+div#page {
+  position:relative;
+  margin:0;
+  padding:0;
+}
+div.holder {
+  max-width:990px;
+  margin:0 auto;
+}
+
+
+/* Principle Columns */
+
+div#menu {
+  float:left;
+  width:21.2121%;
+  margin:0 0 0 3.0303%;
+}
+
+div#content {
+  float:left;
+  width:45.4545%;
+  margin:0 3.0303%;
+}
+div.menu div#content,
+div.aside div#content,
+div.menu-split div#content,
+div.menu-triple div#content,
+div.aside-split div#content,
+div.aside-triple div#content {
+  width:69.6970%;
+}
+div.full div#content,
+div.full-split div#content,
+div.full-triple div#content {
+  width:93.9394%;
+}
+
+div#aside {
+  float:right;
+  width:21.2121%;
+  margin:0 3.0303% 0 0;
+}
+
+
+/* Signpost Columns */
+
+div#left {
+  float:left;
+  width:29.2929%;
+  margin:0 0 0 3.0303%;
+}
+div.full-split div#left,
+div.menu-split div#left,
+div.aside-split div#left {
+  width:45.4545%;
+}
+
+div#centre {
+  float:left;
+  width:29.2929%;
+  margin:0 3.0303%;
+}
+
+div#right {
+  float:right;
+  width:29.2929%;
+  margin:0 3.0303% 0 0;
+}
+div.full-split div#right,
+div.menu-split div#right,
+div.aside-split div#right {
+  width:45.4545%;
+}

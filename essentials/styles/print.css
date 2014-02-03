@@ -1,0 +1,60 @@
+body {
+  font-size: 12pt;
+  color: #000;
+  background:#fff; 
+  margin:0; 
+}
+
+ol, ul {
+  margin-left: 20px!important;
+}
+
+ul li {
+  list-style: disc!important;
+  background-image: none!important;
+}
+
+a:link, 
+a:visited {
+  color: #2c88c2;
+  background: transparent;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+a#logo img {
+  display: block;
+}
+
+nav#navbar,
+div.donate,
+ul#social,
+form.search-form,
+div#menu,
+div#aside,
+div#content div.block-block,
+div.block-menu-block,
+div#footer {
+  display: none;
+}
+
+div#wrapper, 
+div#content {
+  width: auto!important; 
+  margin: 0 20px;
+  padding: 0; 
+  border: 0;
+  float: none !important;
+  color: #000; 
+  background: transparent;
+}
+
+div#content {
+  padding-top: 1em;
+}
+
+div#content a:link:after, 
+div#content a:visited:after {
+  content: " (" attr(href) ") ";
+  font-size: 90%;
+}

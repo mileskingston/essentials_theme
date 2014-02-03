@@ -1,0 +1,213 @@
+name = Essentials 2014
+description = Very basic theme for styling
+package = Core
+version = 2.0
+core = 7.x
+stylesheets[all][] = styles/base.css
+stylesheets[all][] = styles/layout.css
+stylesheets[all][] = styles/header.css
+stylesheets[all][] = styles/main.css
+stylesheets[all][] = styles/footer.css
+stylesheets[all][] = styles/response.css
+stylesheets[print][] = styles/print.css
+
+scripts[] = scripts/jquery.min.js
+scripts[] = scripts/jquery.easing.1.3.js
+scripts[] = scripts/waypoints.js
+scripts[] = scripts/interface.js
+
+regions[header] = Header
+regions[highlighted] = Highlighted
+regions[banner] = Banner
+regions[help] = Help
+regions[menu] = Menu
+regions[content] = Content
+regions[aside] = Aside
+; BASE  regions[left] = Left
+; BASE  regions[centre] = Centre
+; BASE  regions[right] = Right
+regions[trailer] = Trailer
+regions[footer] = Footer
+
+; BASIC TEMPLATES
+
+; Layout: Just Content full width
+layouts[full][name] = "Full Width"
+layouts[full][description] = "One column layout - Just content (use this for panels)"
+layouts[full][template] = "templates/layout/page-full-width"
+layouts[full][regions][] = "header"
+layouts[full][regions][] = "highlighted"
+layouts[full][regions][] = "help"
+layouts[full][regions][] = "banner"
+layouts[full][regions][] = "content"
+layouts[full][regions][] = "trailer"
+layouts[full][regions][] = "footer"
+
+; Layout: Just Menu and Content
+layouts[menu][name] = "Content and Menu"
+layouts[menu][description] = "Two column layout - content and menu regions"
+layouts[menu][template] = "templates/layout/page-menu"
+layouts[menu][regions][] = "header"
+layouts[menu][regions][] = "banner"
+layouts[menu][regions][] = "highlighted"
+layouts[menu][regions][] = "help"
+layouts[menu][regions][] = "menu"
+layouts[menu][regions][] = "content"
+layouts[menu][regions][] = "trailer"
+layouts[menu][regions][] = "footer"
+
+; Layout: Just Content and Aside
+layouts[aside][name] = "Content and Aside"
+layouts[aside][description] = "Two column layout - content and aside regions"
+layouts[aside][template] = "templates/layout/page-aside"
+layouts[aside][regions][] = "header"
+layouts[aside][regions][] = "banner"
+layouts[aside][regions][] = "highlighted"
+layouts[aside][regions][] = "help"
+layouts[aside][regions][] = "content"
+layouts[aside][regions][] = "aside"
+layouts[aside][regions][] = "trailer"
+layouts[aside][regions][] = "footer"
+
+; Layout: (Default) Content with Menu and Aside
+layouts[default][name] = "Content, Menu and Aside"
+layouts[default][description] = "Three column layout with both menu and aside regions"
+layouts[default][template] = "templates/layout/page"
+layouts[default][regions][] = "header"
+layouts[default][regions][] = "banner"
+layouts[default][regions][] = "highlighted"
+layouts[default][regions][] = "help"
+layouts[default][regions][] = "menu"
+layouts[default][regions][] = "content"
+layouts[default][regions][] = "aside"
+layouts[default][regions][] = "trailer"
+layouts[default][regions][] = "footer"
+
+; ADVANCED TEMPLATES - Plus two columns - this is for our base theme not the standard build
+
+; Layout: Full Width content with Two Columns Underneath
+; BASE  layouts[fullsplit][name] = "Content with 2 signposts"
+; BASE  layouts[fullsplit][description] = "Full width content - Two column signpost"
+; BASE  layouts[fullsplit][template] = "templates/page-full-split"
+; BASE  layouts[fullsplit][regions][] = "header"
+; BASE  layouts[fullsplit][regions][] = "banner"
+; BASE  layouts[fullsplit][regions][] = "highlighted"
+; BASE  layouts[fullsplit][regions][] = "help"
+; BASE  layouts[fullsplit][regions][] = "content"
+; BASE  layouts[fullsplit][regions][] = "left"
+; BASE  layouts[fullsplit][regions][] = "right"
+; BASE  layouts[fullsplit][regions][] = "trailer"
+; BASE  layouts[fullsplit][regions][] = "footer"
+
+; Layout: Menu and Content with Two Columns Underneath
+; BASE  layouts[menusplit][name] = "Content and Menu with 2 signposts"
+; BASE  layouts[menusplit][description] = "Two column content - Two column signpost"
+; BASE  layouts[menusplit][template] = "templates/page-menu-split"
+; BASE  layouts[menusplit][regions][] = "header"
+; BASE  layouts[menusplit][regions][] = "banner"
+; BASE  layouts[menusplit][regions][] = "highlighted"
+; BASE  layouts[menusplit][regions][] = "help"
+; BASE  layouts[menusplit][regions][] = "menu"
+; BASE  layouts[menusplit][regions][] = "content"
+; BASE  layouts[menusplit][regions][] = "left"
+; BASE  layouts[menusplit][regions][] = "right"
+; BASE  layouts[menusplit][regions][] = "trailer"
+; BASE  layouts[menusplit][regions][] = "footer"
+
+; Layout: Content and Aside with Two Columns Underneath
+; BASE  layouts[asidesplit][name] = "Content and Aside with 2 signposts"
+; BASE  layouts[asidesplit][description] = "Two column content - Two column signpost"
+; BASE  layouts[asidesplit][template] = "templates/page-aside-split"
+; BASE  layouts[asidesplit][regions][] = "header"
+; BASE  layouts[asidesplit][regions][] = "banner"
+; BASE  layouts[asidesplit][regions][] = "highlighted"
+; BASE  layouts[asidesplit][regions][] = "help"
+; BASE  layouts[asidesplit][regions][] = "content"
+; BASE  layouts[asidesplit][regions][] = "aside"
+; BASE  layouts[asidesplit][regions][] = "left"
+; BASE  layouts[asidesplit][regions][] = "centre"
+; BASE  layouts[asidesplit][regions][] = "right"
+; BASE  layouts[asidesplit][regions][] = "trailer"
+; BASE  layouts[asidesplit][regions][] = "footer"
+
+; Layout:  Content with Menu and Aside with Two Columns Underneath
+; BASE  layouts[pagesplit][name] = "Content, Menu and Aside with 2 signposts"
+; BASE  layouts[pagesplit][description] = "One column layout - Two column signpost"
+; BASE  layouts[pagesplit][template] = "templates/page-split"
+; BASE  layouts[pagesplit][regions][] = "header"
+; BASE  layouts[pagesplit][regions][] = "banner"
+; BASE  layouts[pagesplit][regions][] = "highlighted"
+; BASE  layouts[pagesplit][regions][] = "help"
+; BASE  layouts[pagesplit][regions][] = "menu"
+; BASE  layouts[pagesplit][regions][] = "content"
+; BASE  layouts[pagesplit][regions][] = "aside"
+; BASE  layouts[pagesplit][regions][] = "left"
+; BASE  layouts[pagesplit][regions][] = "right"
+; BASE  layouts[pagesplit][regions][] = "trailer"
+; BASE  layouts[pagesplit][regions][] = "footer"
+
+; ADVANCED TEMPLATES - Plus three columns
+
+; Layout: Full Width content with Three Columns Underneath
+; BASE  layouts[fulltriple][name] = "Content with 3 signposts"
+; BASE  layouts[fulltriple][description] = "Full width content - Three column signpost"
+; BASE  layouts[fulltriple][template] = "templates/page-full-triple"
+; BASE  layouts[fulltriple][regions][] = "header"
+; BASE  layouts[fulltriple][regions][] = "banner"
+; BASE  layouts[fulltriple][regions][] = "highlighted"
+; BASE  layouts[fulltriple][regions][] = "help"
+; BASE  layouts[fulltriple][regions][] = "content"
+; BASE  layouts[fulltriple][regions][] = "left"
+; BASE  layouts[fulltriple][regions][] = "centre"
+; BASE  layouts[fulltriple][regions][] = "right"
+; BASE  layouts[fulltriple][regions][] = "trailer"
+; BASE  layouts[fulltriple][regions][] = "footer"
+
+; Layout: Menu and Content with Three Columns Underneath
+; BASE  layouts[menutriple][name] = Content and Menu with 3 signposts"
+; BASE  layouts[menutriple][description] = "Two column content - Three column signpost"
+; BASE  layouts[menutriple][template] = "templates/page-menu-triple"
+; BASE  layouts[menutriple][regions][] = "header"
+; BASE  layouts[menutriple][regions][] = "banner"
+; BASE  layouts[menutriple][regions][] = "highlighted"
+; BASE  layouts[menutriple][regions][] = "help"
+; BASE  layouts[menutriple][regions][] = "menu"
+; BASE  layouts[menutriple][regions][] = "content"
+; BASE  layouts[menutriple][regions][] = "left"
+; BASE  layouts[menutriple][regions][] = "centre"
+; BASE  layouts[menutriple][regions][] = "right"
+; BASE  layouts[menutriple][regions][] = "trailer"
+; BASE  layouts[menutriple][regions][] = "footer"
+
+; Layout: Content and Aside with Three Columns Underneath
+; BASE  layouts[asidetriple][name] = "Content and Aside with 3 signposts"
+; BASE  layouts[asidetriple][description] = "Two column content - Three column signpost"
+; BASE  layouts[asidetriple][template] = "templates/page-aside-triple"
+; BASE  layouts[asidetriple][regions][] = "header"
+; BASE  layouts[asidetriple][regions][] = "banner"
+; BASE  layouts[asidetriple][regions][] = "highlighted"
+; BASE  layouts[asidetriple][regions][] = "help"
+; BASE  layouts[asidetriple][regions][] = "content"
+; BASE  layouts[asidetriple][regions][] = "aside"
+; BASE  layouts[asidetriple][regions][] = "left"
+; BASE  layouts[asidetriple][regions][] = "centre"
+; BASE  layouts[asidetriple][regions][] = "right"
+; BASE  layouts[asidetriple][regions][] = "trailer"
+; BASE  layouts[asidetriple][regions][] = "footer"
+
+; Layout:  Content with Menu and Aside with Three Columns Underneath
+; BASE  layouts[pagetriple][name] = "Content, Menu and Aside with 3 signposts"
+; BASE  layouts[pagetriple][description] = "One column layout - Three column signpost"
+; BASE  layouts[pagetriple][template] = "templates/page-triple"
+; BASE  layouts[pagetriple][regions][] = "header"
+; BASE  layouts[pagetriple][regions][] = "banner"
+; BASE  layouts[pagetriple][regions][] = "highlighted"
+; BASE  layouts[pagetriple][regions][] = "help"
+; BASE  layouts[pagetriple][regions][] = "menu"
+; BASE  layouts[pagetriple][regions][] = "content"
+; BASE  layouts[pagetriple][regions][] = "aside"
+; BASE  layouts[pagetriple][regions][] = "left"
+; BASE  layouts[pagetriple][regions][] = "centre"
+; BASE  layouts[pagetriple][regions][] = "right"
+; BASE  layouts[pagetriple][regions][] = "trailer"
+; BASE  layouts[pagetriple][regions][] = "footer"
