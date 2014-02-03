@@ -121,7 +121,7 @@ div.views-slideshow-controls-top  {
   top:35%;
   left:0;
   width:100%;
-  z-index:5;
+  z-index:6;
 }
 div.views-slideshow-controls-top span.views-slideshow-controls-text-pause {
   display:none;
@@ -926,10 +926,10 @@ div#node-1 form.webform-client-form {
   display:none;
 }
 
-div#block-block-11 {
+div#block-block-16 {
   padding:20px 0;
 }
-div#block-block-11 div.box {
+div#block-block-16 div.box {
   display:inline-block;
   zoom:1;
   *display:inline;
@@ -941,10 +941,10 @@ div#block-block-11 div.box {
   background:#f39c12;
   color:#fff;
 }
-div#block-block-11 div.box a {
+div#block-block-16 div.box a {
   color:#fff;
 }
-div#block-block-11 div.box a:hover {
+div#block-block-16 div.box a:hover {
   text-decoration:underline;
 }
 
@@ -1016,7 +1016,7 @@ div#error div.bugs {
   background:url('../images/icon-404-x1.png') repeat-x center center;
 }
 
-/* Modal Window */
+/* Modal Window
 
 .modalDialog {
   position: fixed;
@@ -1074,3 +1074,4 @@ a.close-box:hover {
 }
 .close > div {
 }
+*/

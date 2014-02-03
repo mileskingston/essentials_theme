@@ -1,7 +1,7 @@
 $(document).ready(function(){
-	modalWindow();
+	//modalWindow();
 	startEasing();
-	createTooltip();
+	//createTooltip();
 	mobileMenu();
 });
 
@@ -14,17 +14,17 @@ function mobileMenu() {
 	});
 }
 
-function modalWindow() {
-	if($('body').hasClass('front')) {
-  		$('div#openModal').addClass('open');
-	} else {
-		$('div#openModal').hide();	
-	}
+//function modalWindow() {
+	//if($('body').hasClass('front')) {
+  		//$('div#openModal').addClass('open');
+	//} else {
+		//$('div#openModal').hide();	
+	//}
 	
-	$('a.close-box').click(function() {
-		$('div#openModal').removeClass('open').addClass('close');	
-	});
-}
+	//$('a.close-box').click(function() {
+		//$('div#openModal').removeClass('open').addClass('close');	
+	//});
+//}
 
 function startEasing() {
 
@@ -45,8 +45,8 @@ function startEasing() {
 	}
 }
 
-function createTooltip() {
-	if($(window).width() > 760){
-		$('body.front div#block-views-signposts-block_1 div.views-row-1 a').addClass('tt').append('<span class="tt">This is a signpost</span>').wrap('<ul class="tt-wrapper"><li></li></ul>');
-	}
-}
+//function createTooltip() {
+	//if($(window).width() > 760){
+		//$('body.front div#block-views-signposts-block_1 div.views-row-1 a').addClass('tt').append('<span class="tt">This is a signpost</span>').wrap('<ul class="tt-wrapper"><li></li></ul>');
+	//}
+//}
