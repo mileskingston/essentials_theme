@@ -1,7 +1,6 @@
 /* Layout
 ----------*/
 
-
 /* Wrapper */
 
 div#wrapper {
@@ -18,7 +17,6 @@ div.holder {
   max-width:990px;
   margin:0 auto;
 }
-
 
 /* Principle Columns */
 
@@ -52,7 +50,6 @@ div#aside {
   width:21.2121%;
   margin:0 3.0303% 0 0;
 }
-
 
 /* Signpost Columns */
 

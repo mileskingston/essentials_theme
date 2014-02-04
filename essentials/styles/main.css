@@ -2,7 +2,6 @@
 --------*/
 
 div#main {
-  /*padding:1% 0;*/
 }
 
 /* Home */
@@ -293,11 +292,7 @@ div#trailer div.block-views div.views-row a span.author,
 div#trailer div.block-views div.views-row a span.date {
   display:block;
 }
-div#trailer div.block-views div.views-row a span.author,
-div#trailer div.block-views div.views-row a span.date {
-}
-div#trailer div.block-views div.more-link {
-}
+
 div#trailer div.block-views div.more-link a {
   display:inline-block;
   padding:8px 10px;
@@ -416,8 +411,7 @@ div#menu ul.menu li a {
   padding:3% 5%;
   color:#666;
 }
-div#menu ul.menu li.active a {
-}
+
 div#menu ul.menu li a:hover {
   background-color:#f2f2f2;
   -webkit-border-radius:5px;
@@ -439,13 +433,10 @@ div#menu ul.menu li.active-trail ul li a {
   color:#808080;
   background-image:none;
 }
-div#menu ul.menu li.active-trail ul li.active a {
-}
+
 div#menu ul.menu li.active-trail ul li.active-trail ul li a {
   padding:2% 5% 2% 20%;
   background-image:none;
-}
-div#menu ul.menu li.active-trail ul li.active-trail ul li.active a {
 }
 
 
@@ -482,7 +473,6 @@ ul.links {
   line-height:18px;
   font-size:14px;
 }
-
 
 /* Aside */
 
@@ -566,9 +556,7 @@ div#aside div.view-signposts div.views-row-last {
   border-color:#ecf0f1!important;
 }
 
-/* News, Blog, Events */
-
-/* News */
+/* News, Events, Blog */
 
 div#block-views-news-main div.views-row a {
   display:block;	
@@ -761,7 +749,6 @@ div#block-views-events-details div.views-row div.views-field-field-signup-link a
   background-color:#f39c12;
 }
 
-
 div#block-views-events-details div.views-row div.views-field div.field-content {
   display:inline-block;
 }
@@ -895,7 +882,6 @@ div#disqus_thread {
   margin:30px 0 0 0;
 }
 
-
 /* Contact */
 
 body.node-type-webform h2 {
@@ -985,15 +971,16 @@ body.page-taxonomy-term div#content img {
 
 /* 404 */
 
-body.page-node-244 div#content {
+body.page-node-240 div#content {
   width:100%;
 }
-body.page-node-244 div#aside {
+body.page-node-240 div#aside {
   display:none;
 }
 
 div#error {
   padding:0 2%;
+  margin-bottom:60px;
   text-align:center;
   font-size:20px;
   line-height:24px;

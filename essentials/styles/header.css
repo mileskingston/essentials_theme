@@ -11,7 +11,7 @@ div#header {
 
 div#header a,
 form#search-block-form input[type="submit"]:hover {
-  -webit-transition:all 250ms ease-in-out;
+  -webkit-transition:all 250ms ease-in-out;
   -moz-transition:all 250ms ease-in-out;
   -ms-transition:all 250ms ease-in-out;
   -o-transition:all 250ms ease-in-out;
@@ -32,7 +32,8 @@ form#search-block-form {
   padding:0 3.0303% 0 10px;
 }
 form#search-block-form div.form-item {
-  float:left;
+  display:inline-block;
+  vertical-align:top;
   margin:0 5px 0 0;
 }
 form#search-block-form div.form-item label {
@@ -119,10 +120,6 @@ nav#navbar ul li a {
 nav#navbar ul li.active-trail a,
 nav#navbar ul li a:hover {
   border-color:#f39c12;
-}
-nav#navbar ul li.first a {
-}
-nav#navbar ul li.first a:hover {
 }
 
 div.mobile-button-wrapper {

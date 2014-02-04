@@ -178,6 +178,9 @@ form#search-block-form {
   margin:10px;
   width:215px;
 }
+form#search-block-form input[type="text"] {
+  width:140px;
+}
 
 div#header ul#social {
   display:none;
@@ -322,6 +325,11 @@ div#block-views-events-homepage {
   margin:0 5%;
   padding:5% 0 0 0;
 }
+div#block-views-blog-homepage div.views-row a,
+div#block-views-events-homepage div.views-row a {
+  background-repeat:no-repeat!important;	
+}
+
 
 div#block-views-blog-main div.views-row, 
 div#block-views-news-main div.views-row, 
@@ -419,7 +427,7 @@ div#contact-details div.row {
 
 /* Footer */
 div#block-block-3 {
-  background:none;
+  background:none!important;
 }
 div#footer ul#social,
 div#block-block-3,
@@ -489,11 +497,11 @@ div#error div.bugs {
 
 div.wave {
   background-image:url('../images/back-footer-tile-2-x2.png');
-  background-size:72px 46px;
+  background-size:36px 23px;
 }
 div.wave-2 {
   background-image:url('../images/back-footer-tile-x2.png');
-  background-size:72px 46px;
+  background-size:36px 23px;
 }
 
 div#block-menu-menu-footer-menu ul li,
