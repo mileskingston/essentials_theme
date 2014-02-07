@@ -373,6 +373,10 @@ body.node-type-blog-post div.view-display-id-byline span.name {
   padding:5% 0;
 }
 
+div#block-views-news-main div.views-row a span.image {
+  width:50%;
+}
+
 div#aside {
   width:90%;
   margin:5% 5% 0 5%;
@@ -441,6 +445,14 @@ div#block-block-4 {
   padding:0;
 }
 
+}
+
+@media (max-width:400px) {
+
+div#block-views-news-main div.views-row a span.image {
+  width:100%;
+  display:block;
+}
 
 }
 
