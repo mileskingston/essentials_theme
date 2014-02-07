@@ -250,14 +250,17 @@ div#block-views-blog-homepage {
   margin:0 3.0303% 0 0;
   padding:3.0303% 0 0 0;
 }
-div#block-views-events-homepage div.views-row a {
+div#block-views-events-homepage div.views-row a,
+div#block-views-CiviEvents-block div.views-row a {
   background:url('../images/icon-home-events-grey.png') no-repeat 10px 8px;
 }
-div#block-views-events-homepage div.views-row a:hover {
+div#block-views-events-homepage div.views-row a:hover,
+div#block-views-CiviEvents-block div.views-row a:hover {
   background:url('../images/icon-home-events-white.png') no-repeat 10px 8px;
 }
 
-div#block-views-events-homepage {
+div#block-views-events-homepage,
+div#block-views-CiviEvents-block {
   float:left;
   width:45.4545%;
   margin:0 0 0 3.0303%;
@@ -282,6 +285,11 @@ body.front div#trailer div.block-views div.views-row a {
   padding:10px 20px 20px 60px;
   min-height:26px;
   color:#575756;
+   -webkit-transition:all 250ms ease-in-out;
+  -moz-transition:all 250ms ease-in-out;
+  -ms-transition:all 250ms ease-in-out;
+  -o-transition:all 250ms ease-in-out;
+  transition:all 250ms ease-in-out;
 }
 body.front div#trailer div.block-views div.views-row a:hover {
   color:#fff;

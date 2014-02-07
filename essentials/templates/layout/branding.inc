@@ -8,15 +8,15 @@
 		}
 	?>
 	<ul id="social">
-	  <li><a href="http://twitter.com/whitefuse"><img alt="" src="/sites/demo.whitefusemedia.net/themes/essentials/images/icon-header-twitter.png" width="30" /></a></li>
-	  <li><a href="http://facebook.com/whitefuse"><img alt="" src="/sites/demo.whitefusemedia.net/themes/essentials/images/icon-header-facebook.png" width="30" /></a></li>
-	  <li><a href="http://twitter.com/whitefuse"><img alt="" src="/sites/demo.whitefusemedia.net/themes/essentials/images/icon-header-youtube.png" width="30" /></a></li>
+	  <li><a href="http://twitter.com/whitefuse"><img alt="" src="/sites/all/themes/essentials/images/icon-header-twitter.png" width="30" /></a></li>
+	  <li><a href="http://facebook.com/whitefuse"><img alt="" src="/sites/all/themes/essentials/images/icon-header-facebook.png" width="30" /></a></li>
+	  <li><a href="http://twitter.com/whitefuse"><img alt="" src="/sites/all/themes/essentials/images/icon-header-youtube.png" width="30" /></a></li>
 	</ul>
 	<?php if ($main_menu): ?>
 	  
 	  <div class="mobile-button-wrapper">
 	    <span class="mobile-button">
-		  <img src="/sites/demo.whitefusemedia.net/themes/essentials/images/icon-mobile-button-x2.png" width="30" alt="" />
+		  <img src="/sites/all/themes/essentials/images/icon-mobile-button-x2.png" width="30" alt="" />
 		</span>
 	  </div>
 	  

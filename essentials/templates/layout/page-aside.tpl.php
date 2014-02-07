@@ -45,7 +45,7 @@
             
             <div class="sun">
            		<div>
-            		<img src="/sites/demo.whitefusemedia.net/themes/essentials/images/icon-footer-sun-x2.png" width="200" alt="" />
+            		<img src="/sites/all/themes/essentials/images/icon-footer-sun-x2.png" width="200" alt="" />
             	</div>
             </div>   
             

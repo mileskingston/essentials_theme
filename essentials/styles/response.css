@@ -319,17 +319,18 @@ div#block-views-news-homepage span.image img {
 }
 
 div#block-views-blog-homepage,
-div#block-views-events-homepage {
+div#block-views-events-homepage,
+div#block-views-CiviEvents-block {
   float:none;
   width:auto;
   margin:0 5%;
   padding:5% 0 0 0;
 }
 div#block-views-blog-homepage div.views-row a,
-div#block-views-events-homepage div.views-row a {
+div#block-views-events-homepage div.views-row a,
+div#block-views-CiviEvents-block div.views-row a {
   background-repeat:no-repeat!important;	
 }
-
 
 div#block-views-blog-main div.views-row, 
 div#block-views-news-main div.views-row, 
