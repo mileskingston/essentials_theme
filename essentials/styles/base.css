@@ -521,6 +521,16 @@ div.view-links div.views-row a:hover {
   color:#fff;
 }
 
+div.view-links div.views-row a,
+div.item-list ul li a,
+div#aside div.block-views div.view a {
+  -webkit-transition:all 250ms ease-in-out;
+  -moz-transition:all 250ms ease-in-out;
+  -ms-transition:all 250ms ease-in-out;
+  -o-transition:all 250ms ease-in-out;
+  transition:all 250ms ease-in-out;
+}
+
 div.messages,
 div.preview {
   margin:0 3.0303% 2% 3.0303%;

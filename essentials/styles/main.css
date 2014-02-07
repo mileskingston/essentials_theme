@@ -41,6 +41,14 @@ div#block-views-homepage_slideshow-block {
   float:left;
   position:relative;
 }
+div#block-views-homepage_slideshow-block a {
+  -webkit-transition:background 250ms ease-in-out;
+  -moz-transition:background 250ms ease-in-out;
+  -ms-transition:background 250ms ease-in-out;
+  -o-transition:background 250ms ease-in-out;
+  transition:background 250ms ease-in-out;
+}
+
 div#views_slideshow_cycle_main_homepage_slideshow-block {
   width:100%;
   float:left;
@@ -240,9 +248,6 @@ div#block-views-news-homepage div.views-row a span.title {
 div#trailer {
   position:relative;
   z-index:1;
-}
-div#trailer a {
-  color:inherit;
 }
 div#block-views-blog-homepage {
   float:right;
@@ -895,13 +900,22 @@ div#disqus_thread {
 body.node-type-webform h2 {
   margin:0 0 6px 0;
 }
+
+body.node-type-webform div.field-name-field-introduction {
+  margin:0;
+}
+body.node-type-webform div.field-name-field-introduction p {
+  margin:0 0 20px 0;
+}
 body.node-type-webform div.field-name-body {
   width:25%;
+  margin:0;
+  float:left;
 }
 
 div.field-type-google-map-field {
   width:70%;
-  float: right;	
+  float:right;	
 }
 div.google_map_field_display {
   width: 100%;	
