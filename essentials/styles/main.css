@@ -1027,6 +1027,27 @@ div#error div.bugs {
   background:url('../images/icon-404-x1.png') repeat-x center center;
 }
 
+/* CiviCRM */
+
+.crm-container .crm-section .label {
+  text-align:left!important;
+}
+.crm-container .crm-section .content {
+  margin-left:32%!important;
+}
+.crm-container .crm-section .label {
+  width:30%!important;
+}
+
+div#billing-payment-block fieldset div.content,
+div#billing-payment-block fieldset div.content div.description,
+div#billing-payment-block fieldset div.credit_card_type-section {
+  padding:0 0 10px 0;
+  font-size:12px;
+  line-height:16px;
+  color:#888!important;
+}
+
 /* Modal Window
 
 .modalDialog {

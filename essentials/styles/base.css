@@ -204,6 +204,7 @@ textarea:focus {
   border-color:#e74c3c;
   outline:none;
 }
+
 a.button,
 input[type="button"],
 input[type="reset"],
@@ -226,8 +227,25 @@ a.button:hover,
 input[type="button"]:hover,
 input[type="reset"]:hover,
 input[type="submit"]:hover {
-  background:#f39c12;
+  background-color:#f39c12;
 }
+
+#crm-container .crm-button {
+  background-image:none!important;
+  border:0!important;
+  padding:0!important;
+}
+#crm-container .crm-button input {
+  padding:8px 10px!important;
+  font-size:16px!important;
+  border:0!important;
+  text-shadow:none!important;
+  background:#e74c3c!important;
+}
+#crm-container .crm-button input:hover {
+  background-color:#f39c12!important;
+}
+
 span.form-required {
   color:#fa0;
 }
